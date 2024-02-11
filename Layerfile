@@ -1,20 +1,7 @@
-
 FROM node:14
-
-
 WORKDIR /usr/src/app
-
-
 COPY package*.json ./
-
-
 RUN npm install
-
-
 COPY . .
-
-
-EXPOSE WEBSITE localhost:30
-
-
+EXPOSE WEBSITE localhost:3000
 CMD ["npm", "start"]
