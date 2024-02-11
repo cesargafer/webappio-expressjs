@@ -16,5 +16,5 @@ COPY . .
 
 EXPOSE WEBSITE localhost:30
 
-# Comando para iniciar la aplicacion
+
 CMD ["npm", "start"]
