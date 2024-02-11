@@ -16,7 +16,7 @@ RUN npm install
 COPY . .
 
 # Exponemos el puerto en el que la aplicación va a escuchar
-EXPOSE 3000
+EXPOSE WEBSITE localhost:30
 
 # Comando para iniciar la aplicación
 CMD ["npm", "start"]
